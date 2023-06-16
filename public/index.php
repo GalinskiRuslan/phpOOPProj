@@ -3,8 +3,8 @@
 use App\modules\Goods;
 use App\modules\Users;
 
-include_once dirname(__DIR__) . '/services/Autoloder.php';
-spl_autoload_register([new Autoloder(), 'loadClass']);
+include_once dirname(__DIR__) . '/vendor/autoload.php';
+/* spl_autoload_register([new Autoloder(), 'loadClass']); */
 
 
 

@@ -59,4 +59,7 @@ abstract class Model
         $sql = "INSERT INTO {$selectName} ($collumsStr) VALUES ($placeholders)";
         $this->db->exec($sql, $params);
     }
+    public function update()
+    {
+    }
 }
